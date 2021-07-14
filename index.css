@@ -43,3 +43,8 @@ button {
   font-size: 1rem;
   cursor: pointer;
 }
+
+#error-text {
+  color: red;
+  margin-top: 10px;
+}
