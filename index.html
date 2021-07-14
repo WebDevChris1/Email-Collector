@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load CSS -->
     <link rel="stylesheet" href="./index.css" />
     <title>Home</title>
   </head>
   <body>
-    <form class="user-input">
+    <!-- Form container -->
+    <form id="user-input">
+      <!-- Confirm email recieved -->
       <p id="confirm-text"></p>
+      <!-- Email input box -->
       <input
         type="text"
         placeholder="Enter e-mail to recieve updates!"
         id="email-input"
       />
+      <!-- Subscribe button -->
       <button id="sub-btn">Subscribe</button>
       <p id="error-text"></p>
     </form>
+    <!-- Load JS -->
     <script src="./index.js"></script>
   </body>
 </html>

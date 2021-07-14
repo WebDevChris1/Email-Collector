@@ -1,3 +1,4 @@
+/* Root */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 *::before,
@@ -12,7 +13,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.user-input {
+/* General Styles */
+#user-input {
   height: 100vh;
   width: 100vw;
   display: flex;
